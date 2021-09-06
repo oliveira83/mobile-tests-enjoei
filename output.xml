@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.7 on win32)" generated="20210905 23:29:43.110" rpa="false" schemaversion="2">
+<suite id="s1" name="Tests" source="C:\Users\LAB\mobile-tests-enjoei\tests.robot">
+<test id="s1-t1" name="Calc soma">
+<kw name="Open Calc">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20210905 23:29:43.312" endtime="20210905 23:29:54.943"/>
+</kw>
+<status status="PASS" starttime="20210905 23:29:43.311" endtime="20210905 23:29:54.944"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.google.android.calculator:id/digit_9</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210905 23:29:54.947" level="INFO">Clicking element 'id=com.google.android.calculator:id/digit_9'.</msg>
+<status status="PASS" starttime="20210905 23:29:54.945" endtime="20210905 23:29:56.899"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.google.android.calculator:id/op_add</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210905 23:29:56.900" level="INFO">Clicking element 'id=com.google.android.calculator:id/op_add'.</msg>
+<status status="PASS" starttime="20210905 23:29:56.899" endtime="20210905 23:29:57.586"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.google.android.calculator:id/digit_9</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210905 23:29:57.587" level="INFO">Clicking element 'id=com.google.android.calculator:id/digit_9'.</msg>
+<status status="PASS" starttime="20210905 23:29:57.586" endtime="20210905 23:29:58.251"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.google.android.calculator:id/eq</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210905 23:29:58.254" level="INFO">Clicking element 'id=com.google.android.calculator:id/eq'.</msg>
+<status status="PASS" starttime="20210905 23:29:58.251" endtime="20210905 23:29:58.920"/>
+</kw>
+<status status="PASS" starttime="20210905 23:29:43.310" endtime="20210905 23:29:58.920"/>
+</test>
+<test id="s1-t2" name="Calc multiplica">
+<kw name="Open Calc">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20210905 23:29:58.921" endtime="20210905 23:30:10.377"/>
+</kw>
+<status status="PASS" starttime="20210905 23:29:58.921" endtime="20210905 23:30:10.378"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.google.android.calculator:id/digit_9</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210905 23:30:10.383" level="INFO">Clicking element 'id=com.google.android.calculator:id/digit_9'.</msg>
+<status status="PASS" starttime="20210905 23:30:10.378" endtime="20210905 23:30:12.105"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.google.android.calculator:id/op_mul</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210905 23:30:12.107" level="INFO">Clicking element 'id=com.google.android.calculator:id/op_mul'.</msg>
+<status status="PASS" starttime="20210905 23:30:12.105" endtime="20210905 23:30:12.184"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.google.android.calculator:id/digit_9</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210905 23:30:12.187" level="INFO">Clicking element 'id=com.google.android.calculator:id/digit_9'.</msg>
+<status status="PASS" starttime="20210905 23:30:12.184" endtime="20210905 23:30:12.865"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.google.android.calculator:id/eq</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210905 23:30:12.867" level="INFO">Clicking element 'id=com.google.android.calculator:id/eq'.</msg>
+<status status="PASS" starttime="20210905 23:30:12.865" endtime="20210905 23:30:13.500"/>
+</kw>
+<status status="PASS" starttime="20210905 23:29:58.920" endtime="20210905 23:30:13.500"/>
+</test>
+<test id="s1-t3" name="Calc divide">
+<kw name="Open Calc">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20210905 23:30:13.501" endtime="20210905 23:30:27.638"/>
+</kw>
+<status status="PASS" starttime="20210905 23:30:13.501" endtime="20210905 23:30:27.638"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.google.android.calculator:id/digit_9</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210905 23:30:27.641" level="INFO">Clicking element 'id=com.google.android.calculator:id/digit_9'.</msg>
+<status status="PASS" starttime="20210905 23:30:27.638" endtime="20210905 23:30:29.435"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.google.android.calculator:id/op_div</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210905 23:30:29.437" level="INFO">Clicking element 'id=com.google.android.calculator:id/op_div'.</msg>
+<status status="PASS" starttime="20210905 23:30:29.435" endtime="20210905 23:30:30.724"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.google.android.calculator:id/digit_9</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210905 23:30:30.727" level="INFO">Clicking element 'id=com.google.android.calculator:id/digit_9'.</msg>
+<status status="PASS" starttime="20210905 23:30:30.725" endtime="20210905 23:30:30.802"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=com.google.android.calculator:id/eq</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210905 23:30:30.804" level="INFO">Clicking element 'id=com.google.android.calculator:id/eq'.</msg>
+<status status="PASS" starttime="20210905 23:30:30.802" endtime="20210905 23:30:31.467"/>
+</kw>
+<status status="PASS" starttime="20210905 23:30:13.500" endtime="20210905 23:30:31.468"/>
+</test>
+<status status="PASS" starttime="20210905 23:29:43.111" endtime="20210905 23:30:31.469"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
